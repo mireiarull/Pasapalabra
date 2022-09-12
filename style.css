@@ -28,15 +28,15 @@ body {
     flex-flow: row wrap;
     background-color: #fefefe;
     margin: 15% auto; 
-    padding: 20px;
+    padding: 1rem;
     width: 60%; 
     height: 42%;
     text-align: center;
     justify-content:center;
     align-content: center;
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
-    border: 0.3em solid rgb(255, 123, 0);;
-    font-size: 0.8em;
+    border: 0.3rem solid rgb(255, 123, 0);;
+    font-size: 0.8rem;
   }
 
   .time-input {
@@ -57,11 +57,11 @@ body {
     background-color:white;
     color: black;
     float:right;
-    font-size: 1.2em;
+    font-size: 1.1rem;
     font-weight: bold;
-    border-radius: 1em;
-    border: 0.2em dotted rgb(255, 123, 0);
-    padding: 0.5em;
+    border-radius: 1rem;
+    border: 0.2rem dotted rgb(255, 123, 0);
+    padding: 0.5rem;
   }
   
   .close-modal:hover,
@@ -77,8 +77,8 @@ body {
     height: 100vh;
     display: flex;
     flex-flow: column wrap;
-    margin-top: 10px;
-    width: 600px;
+    margin-top: 0.5rem;
+    /* width: 600px; */
     color: white;
 }
 
@@ -88,11 +88,10 @@ body {
     background-color: rgb(255, 255, 255);
     color:rgb(57, 57, 180);
     font-weight: bold;
-    font-size: 12px;
-    padding: 10px;
-    border: px solid rgb(30, 92, 154);
-    width: 36em;
-    height: 2.5em;
+    font-size: 0.9rem;
+    padding: 0.7rem;
+    width: 36rem;
+    height: 2.2rem;
     text-align: center;
     border-radius: 1em;
 }
@@ -100,7 +99,7 @@ body {
 .circle-container {
     display: flex;
     flex-flow: row wrap;
-    height: 75%;
+    height: 27rem;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -110,11 +109,13 @@ body {
     background-color: rgb(96, 172, 247);
     border-radius: 50%;
 	position: relative;
-    width: 370px;
-    height: 370px;
+    /* width: 370px;
+    height: 370px; */
+    width: 23rem;
+    height: 23rem;
     list-style: none;
-    padding: 20px;
-    margin: 20px;
+    padding: 1rem;
+    margin: 1rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -124,11 +125,11 @@ body {
     top: 46%; 
     left: 46%;
     margin-top: 0;
-    width: 1.4em;
-    height: 1.4em;
+    width: 1.85rem;
+    height: 1.85rem;
     margin: 0 auto;
     background:linear-gradient(90deg, rgb(9, 3, 116) 0%, rgba(38,38,200,1) 0%, rgb(47, 123, 198) 100%);
-    border: 2px solid #fff;
+    border: 0.2rem solid #fff;
     border-radius: 50%;
     text-align: center;
     font-size: 1.3em;
@@ -147,10 +148,10 @@ body {
 }
 
 .video-container{
-    width: 83%;
-    height: 83%;
-    margin-top: 9%;
-    margin-left: 9%;
+    width: 80%;
+    height: 80%;
+    margin-top: 10.5%;
+    margin-left: 10.5%;
     text-align: center;
     position: relative;
 }
@@ -161,7 +162,6 @@ body {
     border-radius: 50%;
     background-color: rgb(96, 172, 247);
     object-fit: cover;
-    margin: 50px solid white;
     transform: rotateY(180deg);
     -webkit-transform:rotateY(180deg);
     -moz-transform:rotateY(180deg);
@@ -170,76 +170,76 @@ body {
 .answer-box {
     display: block;
     margin: 0 auto;
-    margin-top: 1.5em;
+    margin-top: 0.5rem;
     text-align: center;
 }
 
 .score-box{
-    margin-top: 60%;
+    margin-top: 20rem;
     display: flex;
     flex-flow: row;
-    margin-right: -80px;
+    margin-right: -10rem;
 }
 
 .time {
     display: flex;
-    margin-right: -8px;
-    width: 55px;
-    height: 55px;
+    margin-right: -0.5rem;
+    width: 3.8rem;
+    height: 3.8rem;
     border-radius: 50%;
     background-color: rgb(255, 123, 0);
     color: white;
     align-items: center;
     justify-content: center;
-    font-size: 28px;
+    font-size: 1.8rem;
     font-weight: bold;
-    border: 5px solid white;
+    border: 0.35rem solid white;
 }
 
 .correct-answers {
     display: flex;
-    margin-top: 20px;
-    width: 35px;
-    height: 35px;
+    margin-top: 1.2rem;
+    width: 2.4rem;
+    height: 2.4rem;
     border-radius: 50%;
     background-color:rgb(42, 214, 42);
     color: white;
     align-items: center;
     justify-content: center;
-    font-size: 22px;
+    font-size: 1.4rem;
     font-weight: bold;
-    border: 3px solid white;
+    border: 0.2rem solid white;
 }
 
 .input-answer {
-    width: 300px;
-    height: 35px;
+    width: 20rem;
+    height: 2.1rem;
     border-radius: 1em;
     border: 0px solid rgb(75, 160, 246);
     color: rgb(57, 57, 180);
-    font-size: 12px;
+    font-size: 0.9rem;
     font-weight: bold;
     text-align: center;
 }
 
 .input-answer:focus {
-    border: 1px solid blue;
+    border: 0.05rem solid blue;
 }
 
 ::placeholder {  
     color:rgb(57, 57, 180);
     font-weight: bold;
-    padding: 5px;
+    padding: 0.5rem;
   }
 
 .button {
-    height: 35px;
+    height: 2.1rem;
     border-radius: 1em;
     background-color:rgb(75, 160, 246);
-    border: 1px solid white;
+    border: 0.1rem solid white;
     font-weight: bold;
     color:white;
-    font-size: 12px;
+    font-size: 0.7rem;
 }
 
 .send {
@@ -248,7 +248,7 @@ body {
 
 .exit {
     background-color: rgb(188, 188, 188);
-    font-size: 10px;
+    font-size: 0.7rem;
 }
 
 .send:hover,
@@ -271,8 +271,8 @@ body {
 
 .wrong-answer {
     display: none;
-    margin-top: 4px;
-    font-weight: 5px;
+    margin-top: 0.1rem;
+    font-size: 0.8rem;
 }
 
 
@@ -301,7 +301,7 @@ body {
     flex-flow: column wrap;
     background-color: #fefefe;
     margin: 15% auto; 
-    padding: 20px;
+    padding: 1rem;
     width: 60%; 
     height: 40%;
     text-align: center;
@@ -309,5 +309,5 @@ body {
     align-content: center;
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
     border: 0.3em solid rgb(255, 123, 0);;
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
