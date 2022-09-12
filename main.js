@@ -19,7 +19,7 @@ document.querySelectorAll( '.full-circle' ).forEach( ( fullCircle )=>{
     for( let i = 0; i < circles.length; ++i ){
       let circle = circles[i]
       angle += dangle
-      circle.style.transform = `rotate(${angle}deg) translate(14vw) rotate(-${angle}deg)`
+      circle.style.transform = `rotate(${angle}deg) translate(31.5vh) rotate(-${angle}deg)`
     }
 })
 
